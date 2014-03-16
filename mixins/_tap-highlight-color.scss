@@ -1,0 +1,8 @@
+
+@mixin SetTapHighlightColor($value: rgba(0,0,0,0)) {
+	-webkit-tap-highlight-color: $value;
+	-moz-tap-highlight-color: $value;
+	-ms-tap-highlight-color: $value;
+	-o-tap-highlight-color: $value;
+	tap-highlight-color: $value;
+}

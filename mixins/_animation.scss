@@ -1,0 +1,8 @@
+
+@mixin SetAnimation($value: none) {
+	-webkit-animation: $value;
+	-moz-animation: $value;
+	-ms-animation: $value;
+	-o-animation: $value;
+	animation: $value;
+}
