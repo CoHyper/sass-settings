@@ -1,0 +1,122 @@
+
+@charset "UTF-8";
+@import "compass";
+@import "compass/reset";
+@import "compass/css3/opacity";
+@import "compass/css3/images";
+
+#sw-wrapper {
+	position: absolute;
+	z-index: 1000;
+	left: 0;
+	width: 100%;
+	font-family: helvetica, sans-serif;
+	background: rgba(0,0,0,0.7);
+	text-align: left;
+}
+
+#sw-header {
+	position: relative;
+	width: 100%;
+	height: 43px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background: url("../images/wheel/sw-header.png") 0 0 repeat-x;
+	@include opacity(0.9);
+}
+
+#sw-cancel, #sw-done {
+	position: absolute;
+	top: 7px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 5px;
+	margin: 0;
+	border-width: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: rgba(0,0,0,0.8) 0 -1px 0;
+	color: #fff;
+}
+
+#sw-cancel {
+	left: 7px;
+	float: left;
+	-webkit-border-image: url("../images/wheel/sw-button-cancel.png") 5;
+	border-image: url("../images/wheel/sw-button-cancel.png") 5;
+}
+
+#sw-done {
+	right: 7px;
+	float: right;
+	-webkit-border-image: url("../images/wheel/sw-button-done.png") 5;
+	border-image: url("../images/wheel/sw-button-done.png") 5;
+}
+
+.sw-pressed {
+	@include opacity(0.4);
+}
+
+#sw-slots-wrapper {
+	position:relative; z-index:999;
+	display:block;
+	height:215px;
+	padding:0 11px;
+	overflow:hidden;
+}
+
+#sw-slots {
+	display:table;
+	width:100%;
+	background:#fcfcfc;
+
+	div {
+		display:table-cell;
+		height:100%;
+		padding-top:86px;
+		border-left:2px solid #0d0e0f;
+		background-color:#fcfcfc;
+		@include background-image(url("../images/wheel/sw-slot-border.png"));
+		background-position: 0 0, 100% 0;
+		background-repeat: repeat-y;
+
+		&:first-child {
+			border:0;
+		}
+	}
+
+	ul {
+		padding:0 0 85px 0;
+	}
+
+	.sw-right {
+		text-align:right;
+	}
+
+	.sw-shrink {
+		width:1%;
+	}
+
+	.sw-readonly {
+		background:#ddd;
+	}
+
+	li {
+		padding:0 8px;
+		height:44px;
+		overflow:hidden;
+		font:bold 24px/44px Helvetica,sans-serif, #000000;
+	}
+}
+
+#sw-frame {
+	position:absolute;
+	z-index:1000;
+	left:0;
+	right:0;
+	bottom:0;
+	height:183px;
+	border-width:16px;
+	-webkit-border-image:url("../images/wheel/sw-alpha.png") 16;
+	border-image:url("../images/wheel/sw-alpha.png") 16;
+}
