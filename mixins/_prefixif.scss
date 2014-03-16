@@ -1,0 +1,8 @@
+// @include SetPrefixify($style, $value);
+@mixin SetPrefixify($style, $value) {
+	-webkit-#{$style}: $value;
+	-moz-#{$style}: $value;
+	-ms-#{$style}: $value;
+	-o-#{$style}: $value;
+	#{$style}: $value;
+}
