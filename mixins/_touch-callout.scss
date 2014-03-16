@@ -1,7 +1,7 @@
+
+@import "prefixif";
+
+// @include SetTouchCallout($value);
 @mixin SetTouchCallout($value: none) {
-	-webkit-touch-callout: $value;
-	-moz-touch-callout: $value;
-	-ms-touch-callout: $value;
-	-o-touch-callout: $value;
-	touch-callout: $value;
+	@include SetPrefixify(touch-callout, $value);
 }
