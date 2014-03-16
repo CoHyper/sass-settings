@@ -1,176 +1,171 @@
 
-$added-bg-color
-$added-color
-$alt-text-color
-$alternate-text-font
+$added-bg-color: #060;
+$added-color: white;
+$alt-text-color: #666;
+$alternate-text-font: "Warnock Pro", "Goudy Old Style", "Palatino", "Book Antiqua", Georgia, serif;
 
-$base-font-size
-$base-half-leader
-$base-leader
-$base-line-height
-$base-rhythm-unit
-$blueprint-background-color
-$blueprint-border-color
-$blueprint-button-active-background-color
-$blueprint-button-active-border-color
-$blueprint-button-active-font-color
-$blueprint-button-background-color
-$blueprint-button-border-color
-$blueprint-button-font-color
-$blueprint-button-font-family
-$blueprint-button-hover-background-color
-$blueprint-button-hover-border-color
-$blueprint-button-hover-font-color
-$blueprint-container-size
-$blueprint-container-size
-$blueprint-fixed-font-family
-$blueprint-font-family
-$blueprint-font-size
-$blueprint-grid-columns
-$blueprint-grid-columns
-$blueprint-grid-margin
-$blueprint-grid-margin
-$blueprint-grid-outer-width
-$blueprint-grid-outer-width
-$blueprint-grid-width
-$blueprint-grid-width
-$blueprint-liquid-container-min-width
-$blueprint-liquid-container-width
-$blueprint-liquid-grid-columns
-$blueprint-liquid-grid-margin
-$blueprint-liquid-grid-push-pull
-$blueprint-liquid-grid-width
-$blueprint-table-header-color
-$blueprint-table-stripe-color
-$browser-default-font-size
+// $base-font-size
+// $base-half-leader
+// $base-leader
+// $base-line-height
+// $base-rhythm-unit
+$blueprint-background-color: #eeeeee;
+$blueprint-border-color: #dddddd;
+$blueprint-button-active-background-color: #6299c5;
+$blueprint-button-active-border-color: #6299c5;
+$blueprint-button-active-font-color: white;
+$blueprint-button-background-color: whitesmoke;
+$blueprint-button-border-color: #dedede;
+$blueprint-button-font-color: #565656;
+$blueprint-button-font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+$blueprint-button-hover-background-color: #dff4ff;
+$blueprint-button-hover-border-color: #c2e1ef;
+$blueprint-button-hover-font-color: #336699;
+$blueprint-container-size: $blueprint-grid-outer-width * $blueprint-grid-columns - $blueprint-grid-margin;
+$blueprint-fixed-font-family: "andale mono", "lucida console", monospace;
+$blueprint-font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+$blueprint-font-size: 12px;
+$blueprint-grid-columns: 24;
+$blueprint-grid-margin: 10px;
+$blueprint-grid-outer-width: $blueprint-grid-width + $blueprint-grid-margin;
+$blueprint-grid-width: 30px;
+$blueprint-liquid-container-min-width: 950px;
+$blueprint-liquid-container-width: 80%;
+$blueprint-liquid-grid-columns: 24;
+$blueprint-liquid-grid-margin: 1.042%;
+$blueprint-liquid-grid-push-pull: -($blueprint-liquid-grid-margin + $blueprint-liquid-grid-width);
+$blueprint-liquid-grid-width: 3.167%;
+$blueprint-table-header-color: #c3d9ff;
+$blueprint-table-stripe-color: #e5ecf9;
+// $browser-default-font-size
 
-$contrasted-dark-default
-$contrasted-light-default
-$contrasted-lightness-threshold
+// $contrasted-dark-default
+// $contrasted-light-default
+// $contrasted-lightness-threshold
 
-$default-background-clip
-$default-background-origin
-$default-background-size
-$default-border-radius
-$default-box-align
-$default-box-direction
-$default-box-flex
-$default-box-flex-group
-$default-box-lines
-$default-box-ordinal-group
-$default-box-orient
-$default-box-pack
-$default-box-shadow-blur
-$default-box-shadow-color
-$default-box-shadow-h-offset
-$default-box-shadow-inset
-$default-box-shadow-spread
-$default-box-shadow-v-offset
-$default-has-layout-approach
-$default-origin-x
-$default-origin-y
-$default-origin-z
-$default-rhythm-border-style
-$default-rotate
-$default-scale-x
-$default-scale-y
-$default-scale-z
-$default-skew-x
-$default-skew-y
-$default-text-shadow-blur
-$default-text-shadow-color
-$default-text-shadow-h-offset
-$default-text-shadow-spread
-$default-text-shadow-v-offset
-$default-transition-delay
-$default-transition-duration
-$default-transition-function
-$default-transition-property
-$default-translate-x
-$default-translate-y
-$default-translate-z
-$default-vector-x
-$default-vector-y
-$default-vector-z
-$disable-magic-sprite-selectors
+$default-background-clip: padding-box;
+$default-background-origin: content-box;
+$default-background-size: 100% auto;
+$default-border-radius: 5px;
+$default-box-align: stretch;
+$default-box-direction: normal;
+$default-box-flex: 0;
+$default-box-flex-group: 1;
+$default-box-lines: single;
+$default-box-ordinal-group: 1;
+$default-box-orient: horizontal;
+$default-box-pack: start;
+$default-box-shadow-blur: 5px;
+$default-box-shadow-color: #333333;
+$default-box-shadow-h-offset: 0px;
+$default-box-shadow-v-offset: 0px;
+$default-box-shadow-inset: false;
+$default-box-shadow-spread: false;
+// $default-has-layout-approach
+$default-origin-x: 50%;
+$default-origin-y: 50%;
+$default-origin-z: 50%;
+// $default-rhythm-border-style
+$default-rotate: 45deg;
+$default-scale-x: 1.25;
+$default-scale-y: 1.25;
+$default-scale-z: 1.25;
+$default-skew-x: 5deg;
+$default-skew-y: 5deg;
+$default-text-shadow-blur: 1px;
+$default-text-shadow-color: #aaaaaa;
+$default-text-shadow-h-offset: 0px;
+$default-text-shadow-v-offset: 0px;
+$default-text-shadow-spread: false;
+$default-transition-delay: false;
+$default-transition-duration: 1s;
+$default-transition-function: false;
+$default-transition-property: all;
+$default-translate-x: 1em;
+$default-translate-y: 1em;
+$default-translate-z: 1em;
+$default-vector-x: 1;
+$default-vector-y: 1;
+$default-vector-z: 1;
+// $disable-magic-sprite-selectors
 
-$error-bg-color
-$error-border-color
-$error-color
-$experimental-support-for-khtml
-$experimental-support-for-microsoft
-$experimental-support-for-mozilla
-$experimental-support-for-opera
-$experimental-support-for-pie
-$experimental-support-for-pie
-$experimental-support-for-svg
-$experimental-support-for-webkit
+$error-bg-color: #fbe3e4;
+$error-border-color: #fbc2c4;
+$error-color: #8a1f11;
+// $experimental-support-for-khtml
+// $experimental-support-for-microsoft
+// $experimental-support-for-mozilla
+// $experimental-support-for-opera
+// $experimental-support-for-pie
+// $experimental-support-for-pie
+// $experimental-support-for-svg
+// $experimental-support-for-webkit
 
-$feedback-border-color
-$font-color
-$font-unit
+$feedback-border-color: #ddd;
+$font-color: #333;
+// $font-unit
 
-$grid-background-baseline-color
-$grid-background-baseline-height
-$grid-background-column-color
-$grid-background-column-width
-$grid-background-force-fluid
-$grid-background-gutter-color
-$grid-background-gutter-width
-$grid-background-offset
-$grid-background-total-columns
+// $grid-background-baseline-color
+// $grid-background-baseline-height
+// $grid-background-column-color
+// $grid-background-column-width
+// $grid-background-force-fluid
+// $grid-background-gutter-color
+// $grid-background-gutter-width
+// $grid-background-offset
+// $grid-background-total-columns
 
-$header-color
-$hide-text-direction
-$highlight-color
+$header-color: darken($font-color, 6.67%);
+// $hide-text-direction
+$highlight-color: yellow;
 
-$info-bg-color
-$info-border-color
-$info-color
-$inline-block-alignment
+$info-bg-color: #d5edf8;
+$info-border-color: #92cae4;
+$info-color: #205791;
+$inline-block-alignment: middle;
 
-$legacy-support-for-ie
-$legacy-support-for-ie6
-$legacy-support-for-ie7
-$legacy-support-for-ie8
-$legacy-support-for-mozilla
-$link-active-color
-$link-color
-$link-focus-color
-$link-hover-color
-$link-visited-color
-$loud-color
+// $legacy-support-for-ie
+// $legacy-support-for-ie6
+// $legacy-support-for-ie7
+// $legacy-support-for-ie8
+// $legacy-support-for-mozilla
+$link-active-color: lighten(adjust-hue($link-color, 75deg), 10%);
+$link-color: #0066cc;
+$link-focus-color: $link-hover-color;
+$link-hover-color: #0099ff;
+$link-visited-color: darken($link-color, 10%);
+$loud-color: darken($font-color, 13.33%);
 
-$min-line-padding
+// $min-line-padding
 
-$notice-bg-color
-$notice-border-color
-$notice-color
+$notice-bg-color: #fff6bf;
+$notice-border-color: #ffd324;
+$notice-color: #514721;
 
-$pie-base-class
-$pie-behavior
-$pie-default-approach
+$pie-base-class: false;
+$pie-behavior: stylesheet-url("PIE.htc");
+$pie-default-approach: relative;
 
-$quiet-color
+$quiet-color: lighten($font-color, 20%);
 
-$relative-font-sizing
-$removed-bg-color
-$removed-color
-$round-to-nearest-half-line
+// $relative-font-sizing
+$removed-bg-color: #900;
+$removed-color: white;
+// $round-to-nearest-half-line
 
-$show-baseline-grid-backgrounds
-$show-column-grid-backgrounds
-$show-grid-backgrounds
-$sprite-default-margin
-$sprite-default-size
-$sprite-image-default-height
-$sprite-image-default-width
-$sprite-selectors
-$success-bg-color
-$success-border-color
-$success-color
-$support-for-original-webkit-gradients
+// $show-baseline-grid-backgrounds
+// $show-column-grid-backgrounds
+// $show-grid-backgrounds
+// $sprite-default-margin
+// $sprite-default-size
+// $sprite-image-default-height
+// $sprite-image-default-width
+// $sprite-selectors
+$success-bg-color: #e6efc2;
+$success-border-color: #c6d880;
+$success-color: #264409;
+// $support-for-original-webkit-gradients
 
-$transitionable-prefixed-values
+// $transitionable-prefixed-values
 
-$use-mozilla-ellipsis-binding
+// $use-mozilla-ellipsis-binding
