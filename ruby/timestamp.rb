@@ -1,12 +1,10 @@
 
 module Sass::Script::Functions
+	# use '#{timestamp()}'
 	def timestamp(string)
 		# if (string == "y") {
 			return Sass::Script::String.new(Time.now.year.to_s);
 		# }
-		
-		# use '#{timestamp()}'
-		
 	end
 end
 
