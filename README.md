@@ -1,4 +1,4 @@
 sass-settings
 =============
 
-Start a new project with same SASS files.
+Start a new project with same SASS structur.
