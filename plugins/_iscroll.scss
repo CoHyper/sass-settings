@@ -10,8 +10,7 @@
 @import "compass/css3/box-sizing";
 @import "compass/css3/transform";
 @import "compass/css3/user-interface";
-@import "../includes/text-size-adjust";
-@import "../includes/tap-highlight-color";
+@import "../mixins/prefix";
 
 * {
 	@include box-sizing(border-box);
