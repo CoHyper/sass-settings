@@ -1,0 +1,15 @@
+
+@import "../mixins/prefix";
+
+* {
+	@include SetPrefix(tap-highlight-color, rgba(0,0,0,0
+	@include SetPrefix(touch-callout, none);
+	@include SetPrefix(text-size-adjust, none);
+	@include user-select(none);
+	// @include _font($font_size_middle, normal);
+}
+
+input,
+textarea {
+	@include user-select(text);
+}
