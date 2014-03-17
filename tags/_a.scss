@@ -12,7 +12,7 @@ a {
 	&[href$=".pdf"] {}
 	&[href$=".xls"],
 	&[href$=".zip"] {}
-	&[href$="youtube."] {}
+	&[href="youtube."] {}
 	&:link {}
 	&:visited {}
 	&:hover {}

@@ -1,5 +1,6 @@
 // http://compass-style.org/reference/compass/css3/box/#mixin-box-align
 // http://compass-style.org/reference/compass/css3/box/#const-default-box-align
 
+// [ start | end | center | baseline | stretch ]
 // $default-box-align: stretch;
-// @include box-align($value); [ start | end | center | baseline | stretch ]
+// @include box-align($value);

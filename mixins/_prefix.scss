@@ -1,5 +1,10 @@
 // @include SetPrefix($style, $value);
 @mixin SetPrefix($style, $value) {
+	// TODO : set default
+	// animation-fill-mode: none;
+	// tap-highlight-color: rgba(0,0,0,0);
+	// text-size-adjust: none;
+	// touch-callout: none;
 	-webkit-#{$style}: $value;
 	-moz-#{$style}: $value;
 	-ms-#{$style}: $value;
