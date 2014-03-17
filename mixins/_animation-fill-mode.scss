@@ -1,6 +1,0 @@
-@import "prefixif";
-
-// @include SetAnimationFillMode($value);
-@mixin SetAnimationFillMode($value: none) {
-	@include SetPrefixify(animation-fill-mode, $value);
-}

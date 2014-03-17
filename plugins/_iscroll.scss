@@ -10,8 +10,8 @@
 @import "compass/css3/box-sizing";
 @import "compass/css3/transform";
 @import "compass/css3/user-interface";
-@import "../mixins/_text-size-adjust.scss";
-@import "../mixins/_tap-highlight-color.scss";
+@import "../includes/text-size-adjust";
+@import "../includes/tap-highlight-color";
 
 * {
 	@include box-sizing(border-box);
@@ -67,12 +67,12 @@ body {
 #scroller {
 	position: absolute;
 	z-index: 1;
-	@mixin SetTapHighlightColor(rgba(0,0,0,0));
+	@include SetPrefix(tap-highlight-color, rgba(0,0,0,0));
 	width: 100%;
 	@include transform(translateZ(0));
 	-webkit-touch-callout: none;
 	@include user-select(none);
-	@include SetTextSizeAdjust(none);
+	@include SetPrefix(text-size-adjust, none);
 
 	ul {
 		width: 100%;

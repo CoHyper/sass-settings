@@ -15,7 +15,7 @@
 @import "compass/css3/user-interface";
 @import "compass/css3/text-shadow";
 @import "compass/css3/transform";
-@import "../mixins/touch-callout";
+@import "../includes/touch-callout";
 
 
 // Main container
@@ -23,7 +23,7 @@
 	z-index: 9999;
 	@include user-select(none);
 	@include box-sizing(border-box);
-	@include SetTouchCallout(none);
+	@include SetPrefix(touch-callout, none);
 	width: 240px;
 	font-size: 15px;
 	padding: 12px 14px;

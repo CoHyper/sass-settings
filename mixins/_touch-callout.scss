@@ -1,7 +1,0 @@
-
-@import "prefixif";
-
-// @include SetTouchCallout($value);
-@mixin SetTouchCallout($value: none) {
-	@include SetPrefixify(touch-callout, $value);
-}

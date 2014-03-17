@@ -1,6 +1,0 @@
-@import "prefixif";
-
-// @include SetTouchCallout($value);
-@mixin SetTextSizeAdjust($value: none) {
-	@include SetPrefixify(text-size-adjust, $value);
-}
