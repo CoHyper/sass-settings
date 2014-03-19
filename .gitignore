@@ -8,3 +8,4 @@ pubspec.lock
 .DS_Store
 .sass-cache
 .classpath
+stylesheets/*
