@@ -9,3 +9,4 @@ pubspec.lock
 .sass-cache
 .classpath
 stylesheets/*
+config.rb
