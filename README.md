@@ -9,8 +9,6 @@ Start a new project with same SASS structur and functions.
 * compass
 
 # To used
-* create any projekt
-* create folder sass `$ mkdir sass`
-* `cd sass`
-* add `https://github.com/CoHyper/sass-settings` as submodules insert the SASS folder
-* rename `ch_config.rb` to `config.rb`
+* create new sass project `$ compass create`
+* `$ mkdir sass-settings`
+* add `https://github.com/CoHyper/sass-settings` as submodules insert sass-settings

@@ -10,7 +10,7 @@
 @import "compass/css3/box-sizing";
 @import "compass/css3/transform";
 @import "compass/css3/user-interface";
-@import "../ch_mixins/prefix";
+@import "../mixins/prefix";
 
 * {
 	@include box-sizing(border-box);
