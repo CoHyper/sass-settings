@@ -7,4 +7,8 @@ pubspec.lock
 *.js.map
 .DS_Store
 .sass-cache
+*.scssc
 .classpath
+config.rb
+stylesheets/
+*.css
