@@ -9,6 +9,6 @@ Start new SASS project with same structure and functions.
 * compass
 
 # To used
-* create new sass project `$ compass create`
-* `$ mkdir sass-settings`
-* add `https://github.com/CoHyper/sass-settings` as submodules insert sass-settings
+* create new sass project `$ compass create`.
+* add `https://github.com/CoHyper/sass-settings` as submodules insert the sass folder.
+
