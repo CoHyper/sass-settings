@@ -1,7 +1,7 @@
 sass-settings
 =============
 
-Start a new project with same SASS structur and functions.
+Start new SASS project with same structure and functions.
 
 # Require install
 * ruby
