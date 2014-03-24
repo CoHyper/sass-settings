@@ -2,7 +2,7 @@
 @import "../mixins/prefix";
 
 * {
-	@include SetPrefix(tap-highlight-color, rgba(0,0,0,0
+	@include SetPrefix(tap-highlight-color, rgba(0,0,0,0));
 	@include SetPrefix(touch-callout, none);
 	@include SetPrefix(text-size-adjust, none);
 	@include user-select(none);
