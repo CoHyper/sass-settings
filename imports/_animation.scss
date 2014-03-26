@@ -1,3 +1,6 @@
 @import "../mixins/prefix";
 
-// @include SetPrefix(animation, $value: none);
+// @include SetPrefix($key, $value);
+
+// e.g.
+// @include SetPrefix(animation, none);

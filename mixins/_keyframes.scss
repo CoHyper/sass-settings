@@ -1,0 +1,17 @@
+@mixin SetKeyframes($key) {
+	@-webkit-keyframes #{$key} {
+		@content;
+	}
+	@-moz-keyframes #{$key} {
+		@content;
+	}
+	@-ms-keyframes #{$key} {
+		@content;
+	}
+	@-o-keyframes #{$key} {
+		@content;
+	}
+	@keyframes #{$key} {
+		@content;
+	}
+}
