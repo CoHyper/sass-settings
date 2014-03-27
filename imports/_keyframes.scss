@@ -1,10 +1,8 @@
-@import "../mixins/keyframes";
-
-// @include SetKeyframes($key) {
-// 	$value
-// };
+@include SetKeyframes($key) {
+	$value
+};
 
 // e.g.
-// @include SetKeyframes(bgcolor) {
-// 	background-color: #ffccf2;
-// }
+@include SetKeyframes(bgcolor) {
+	background-color: #ffccf2;
+}

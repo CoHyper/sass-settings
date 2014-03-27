@@ -1,6 +1,3 @@
-// http://compass-style.org/reference/compass/css3/box/
-@import "compass/css3/box";
-
 // [ horizontal | vertical | inline-axis | block-axis | inherit ]
-// $default-box-orient: horizontal;
-// @include box-orient($value); 
+$default-box-orient: horizontal;
+@include box-orient($value); 

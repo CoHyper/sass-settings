@@ -1,6 +1,2 @@
-// http://compass-style.org/reference/compass/css3/border_radius/
-// http://compass-style.org/reference/compass/css3/border_radius/#const-default-border-radius
-@import "compass/css3/border-radius";
-
-// $default-border-radius: 5px;
-// @include border-radius($value);
+$default-border-radius: 5px;
+@include border-radius($value);

@@ -1,6 +1,4 @@
 
-@import "../mixins/prefix";
-
 * {
 	@include SetPrefix(tap-highlight-color, rgba(0,0,0,0));
 	@include SetPrefix(touch-callout, none);

@@ -1,5 +1,2 @@
-// http://compass-style.org/reference/compass/css3/background_clip/
-@import "compass/css3/background-clip";
-
-// $default-background-clip: padding-box;
-// @include background-clip($value);
+$default-background-clip: padding-box;
+@include background-clip($value);

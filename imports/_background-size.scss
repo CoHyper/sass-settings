@@ -1,5 +1,2 @@
-// http://compass-style.org/reference/compass/css3/background_size/
-@import "compass/css3/background-size";
-
-// $default-background-size: 100% auto !default;
-// @include background-size($value);
+$default-background-size: 100% auto !default;
+@include background-size($value);
