@@ -2,5 +2,5 @@
 
 // [ normal | reverse | inherit ]
 
-// $default-box-direction: normal;
-// @include box-direction($value);
+$default-box-direction: normal;
+@include box-direction($value);
