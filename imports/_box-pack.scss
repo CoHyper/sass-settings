@@ -1,2 +1,3 @@
 // [ start | end | center | justify ]
+$default-box-pack: start;
 @include box-pack($value);
