@@ -14,5 +14,5 @@ Start new SASS project with same structure and functions.
 * add `https://github.com/CoHyper/sass-settings` as submodules insert the `./sass/` folder with folder name `sass-settings`
   * also your new sass structur `./sass/sass-settings/`
 * add in your `./sass/screen.scss` `@import "sass-settings/index";
-  * in "sass-settings/index" is already exist `@import "compass/reset;"`
+  * in "sass-settings/index" is already exist `@import "compass/reset";`
 
