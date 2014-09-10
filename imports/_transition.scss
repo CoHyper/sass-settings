@@ -1,1 +1,7 @@
 @include transition($value);
+
+// e.g.
+.any {
+  background-color: red;
+  @include transition(background-color 1s linear);
+}

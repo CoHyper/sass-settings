@@ -1,0 +1,4 @@
+// [ ease | linear | ease-in | ease-out | ease-in-out | cubic-bezier(x1, y1, x2, y2)]
+$default-transition-function: false;
+
+@include transition-timing-function($value);

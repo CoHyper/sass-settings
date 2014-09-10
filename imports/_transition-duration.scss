@@ -1,0 +1,4 @@
+// $value in seconds
+$default-transition-duration: 1s;
+
+@include transition-duration($value);

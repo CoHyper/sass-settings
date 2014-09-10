@@ -6,3 +6,9 @@
 @include SetKeyframes(bgcolor) {
 	background-color: #ffccf2;
 }
+
+// e.g.
+@include SetKeyframes(myfirst) {
+  from {background: red;}
+  to {background: yellow;}
+}
