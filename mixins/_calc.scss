@@ -1,0 +1,10 @@
+/**
+* todo : set default
+*
+* @example
+* 		@include _calc(width, "25% - 1em");
+*/
+@mixin _calc($property, $expression) {
+	#{$property}: -webkit-calc(#{$expression});
+	#{$property}: calc(#{$expression});
+}
