@@ -1,2 +1,5 @@
-// [ hidden | visible ]
-@include backface-visibility($value);
+/**
+* @param $value [ hidden | visible ]
+* @example
+*     @include backface-visibility(hidden);
+*/

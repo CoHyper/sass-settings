@@ -1,4 +1,6 @@
-@include SetPrefix($key, $value);
-
-// e.g.
-@include SetPrefix(animation-fill-mode, none);
+/**
+* $key [ animation-fill-mode ]
+* $value [ none ]
+* @example
+*     @include _setPrefix(animation-fill-mode, none);
+*/

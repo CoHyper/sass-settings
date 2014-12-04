@@ -1,2 +1,8 @@
-$default-border-radius: 5px;
-@include border-radius($value);
+/**
+* INFO: 1em is a circle
+*
+* @default $default-border-radius: 5px;
+* @param $value [ 2em ] Any size
+* @example
+*     @include border-radius(1em);
+*/

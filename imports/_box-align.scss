@@ -1,3 +1,6 @@
-// [ start | end | center | baseline | stretch ]
-$default-box-align: stretch;
-@include box-align($value);
+/**
+* @default $default-box-align: stretch;
+* @param $value [ start | end | center | baseline | stretch ]
+* @example
+*     @include box-align(stretch);
+*/

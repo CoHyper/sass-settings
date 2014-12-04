@@ -1,6 +1,6 @@
-@import "compass/css3/box";
-
-// [ normal | reverse | inherit ]
-
-// $default-box-direction: normal;
-// @include box-direction($value);
+/**
+* @default $default-box-direction: normal;
+* @param $value [ normal | reverse | inherit ]
+* @example
+*     @include box-direction(normal);
+*/
