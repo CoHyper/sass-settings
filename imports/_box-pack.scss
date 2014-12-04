@@ -1,6 +1,8 @@
 /**
-* @default $default-box-orient: horizontal;
+* @default $default-box-pack: start;
 * @param $value [ start | end | center | justify ]
 * @example
+*     @include box-pack($value);
+*
 *     @include box-pack(end);
 */

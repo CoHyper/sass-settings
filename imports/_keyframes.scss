@@ -9,4 +9,9 @@
 *		@include _setKeyframes(bgcolor) {
 *			background-color: #ffccf2;
 *		}
+*
+*		@include SetKeyframes(myfirst) {
+*			from {background: red;}
+*			to {background: yellow;}
+*		}
 */
