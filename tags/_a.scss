@@ -1,22 +1,22 @@
 a {
-  	&[href^="#"] {}
-	&[href^="/"] {}
-	&[href^=".."] {}
-	&[href^="http://"] {}
-	&[href^="https://"] {}
-	&[href^="mailto:"] {}
-	&[href^="sms:"] {}
-	&[href^="tel:"] {}
+  	&[href^="#"],
+	&[href^="/"],
+	&[href^=".."],
+	&[href^="http://"],
+	&[href^="https://"],
+	&[href^="mailto:"],
+	&[href^="sms:"],
+	&[href^="tel:"],
 	&[href$=".doc"],
-	&[href$=".docx"] {}
-	&[href$=".mp3"] {}
-	&[href$=".pdf"] {}
+	&[href$=".docx"],
+	&[href$=".mp3"],
+	&[href$=".pdf"],
 	&[href$=".xls"],
-	&[href$=".zip"] {}
-	&[href="youtube."] {}
-	&:link {}
-	&:visited {}
-	&:hover {}
-	&:active {}
+	&[href$=".zip"],
+	&[href="youtube."],
+	&:link,
+	&:visited,
+	&:hover,
+	&:active,
 	&:focus {}
 }
