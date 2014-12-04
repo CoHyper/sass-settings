@@ -1,5 +1,8 @@
 /**
 * @param $key [ animation ]
+* @param $value [ none ]
+* @example
+*     @include _setPrefix(animation, none);
 * @param $value [ none | myfirst 5s ]
 * @example
 *	  @include SetPrefix($key, $value);
@@ -7,4 +10,5 @@
 *     @include _setPrefix(animation, none);
 *
 *	  @include _setPrefix(animation, myfirst 5s);
+>>>>>>> master
 */
