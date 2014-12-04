@@ -1,2 +1,6 @@
-$default-background-clip: padding-box;
-@include background-clip($value);
+/**
+* @default $default-background-clip: padding-box;
+* @param $value [ padding-box ]
+* @example
+*     @include background-clip(padding-box);
+*/

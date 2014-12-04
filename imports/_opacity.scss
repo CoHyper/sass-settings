@@ -1,1 +1,5 @@
-@include opacity($value);
+/**
+* @param $value {Number} [ 0.7 | 0 | 1 ]
+* @example
+*     @include opacity(0.5);
+*/

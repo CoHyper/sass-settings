@@ -1,1 +1,6 @@
-@include SetPrefix(text-size-adjust, $value);
+/**
+* @param $key [ text-size-adjust ]
+* @param $value
+* @example
+*     @include _setPrefix(text-size-adjust, $value);
+*/

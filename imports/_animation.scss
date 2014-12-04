@@ -1,7 +1,10 @@
-@include SetPrefix($key, $value);
-
-// e.g.
-@include SetPrefix(animation, none);
-
-// e.g.
-@include SetPrefix(animation, myfirst 5s);
+/**
+* @param $key [ animation ]
+* @param $value [ none | myfirst 5s ]
+* @example
+*	  @include SetPrefix($key, $value);
+*
+*     @include _setPrefix(animation, none);
+*
+*	  @include _setPrefix(animation, myfirst 5s);
+*/

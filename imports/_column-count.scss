@@ -1,0 +1,7 @@
+/**
+* @import "compass/css3/columns";
+* @param $value {Number} [ 7 ]
+* @example
+*     @include column-count(5);
+*/
+@include column-count($value);

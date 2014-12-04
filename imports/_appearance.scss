@@ -1,2 +1,5 @@
-// [ normal | icon | window | button | menu | field ]
-@include appearance($value);
+/**
+* @param $value [ normal | icon | window | button | menu | field ]
+* @example
+*     @include appearance(icon);
+*/

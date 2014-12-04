@@ -1,2 +1,6 @@
-$default-background-size: 100% auto !default;
-@include background-size($value);
+/**
+* @default $default-background-size: 100% auto !default;
+* @param $value [ 100% 100% | 20px ]
+* @example
+*     @include background-size(100% auto);
+*/

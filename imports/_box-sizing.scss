@@ -1,2 +1,5 @@
-// [ content-box | border-box ]
-@include box-sizing($value);
+/**
+* @param $value [ content-box | border-box ]
+* @example
+*     @include box-sizing($value);
+*/

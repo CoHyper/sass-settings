@@ -1,1 +1,6 @@
-@include SetPrefix(touch-callout, $value);
+/**
+* @param $key [ touch-callout ]
+* @param $value
+* @example
+*     @include _setPrefix(touch-callout, $value);
+*/

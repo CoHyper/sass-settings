@@ -1,1 +1,6 @@
-@include SetPrefix(tap-highlight-color, $value);
+/**
+* @param $key [ tap-highlight-color ]
+* @param $value
+* @example
+*     @include _setPrefix(tap-highlight-color, $value);
+*/

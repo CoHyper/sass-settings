@@ -1,14 +1,17 @@
-@include SetKeyframes($key) {
-	$value
-};
-
-// e.g.
-@include SetKeyframes(bgcolor) {
-	background-color: #ffccf2;
-}
-
-// e.g.
-@include SetKeyframes(myfirst) {
-  from {background: red;}
-  to {background: yellow;}
-}
+/**
+* @param $key [ bgcolor ]
+* @param $value
+* @example
+*		@include _setKeyframes($key) {
+*			$value
+*		};
+*
+*		@include _setKeyframes(bgcolor) {
+*			background-color: #ffccf2;
+*		}
+*
+*		@include SetKeyframes(myfirst) {
+*			from {background: red;}
+*			to {background: yellow;}
+*		}
+*/

@@ -1,1 +1,5 @@
-@include border-image($path);
+/**
+* @param $value - The path to the image
+* @example
+*     @include border-image($value);
+*/

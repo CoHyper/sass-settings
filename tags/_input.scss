@@ -1,8 +1,31 @@
-
 input {
-	&[type="email"] {}
-	&[type="file"] {}
-	&[type="name"] {}
-	&[type="tel"] {}
-	&[type="text"] {}
+  &[type="file"],
+  &[type="button"],
+  &[type="checkbox"],
+  &[type="color"],
+  &[type="date"],
+  &[type="day"],
+  &[type="datetime"],
+  &[type="datetime-local"],
+  &[type="email"],
+  &[type="fax"],
+  &[type="file"],
+  &[type="hidden"],
+  &[type="image"],
+  &[type="month"],
+  &[type="name"],
+  &[type="number"],
+  &[type="password"],
+  &[type="radio"],
+  &[type="range"],
+  &[type="reset"],
+  &[type="search"],
+  &[type="submit"],
+  &[type="tel"],
+  &[type="text"],
+  &[type="time"],
+  &[type="url"],
+  &[type="week"] {
+    @include user-select(text);
+  }
 }

@@ -1,3 +1,8 @@
-// [ start | end | center | justify ]
-$default-box-pack: start;
-@include box-pack($value);
+/**
+* @default $default-box-pack: start;
+* @param $value [ start | end | center | justify ]
+* @example
+*     @include box-pack($value);
+*
+*     @include box-pack(end);
+*/

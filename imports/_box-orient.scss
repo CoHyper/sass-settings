@@ -1,3 +1,6 @@
-// [ horizontal | vertical | inline-axis | block-axis | inherit ]
-$default-box-orient: horizontal;
-@include box-orient($value); 
+/**
+* @default $default-box-orient: horizontal;
+* @param $value [ horizontal | vertical | inline-axis | block-axis | inherit ]
+* @example
+*     @include box-orient(vertical);
+*/

@@ -1,17 +1,22 @@
+@mixin _setKeyframes($key) {
+  @-webkit-keyframes #{$key} {
+	@content;
+  }
+  @-moz-keyframes #{$key} {
+	@content;
+  }
+  @-ms-keyframes #{$key} {
+	@content;
+  }
+  @-o-keyframes #{$key} {
+	@content;
+  }
+  @keyframes #{$key} {
+	@content;
+  }
+}
+
 @mixin SetKeyframes($key) {
-	@-webkit-keyframes #{$key} {
-		@content;
-	}
-	@-moz-keyframes #{$key} {
-		@content;
-	}
-	@-ms-keyframes #{$key} {
-		@content;
-	}
-	@-o-keyframes #{$key} {
-		@content;
-	}
-	@keyframes #{$key} {
-		@content;
-	}
+  // @deprecated
+  @include _setKeyframes($key);
 }

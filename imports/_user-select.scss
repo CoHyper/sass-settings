@@ -1,2 +1,5 @@
-// [ none | text | toggle | element | elements | all | inherit ]
-@include user-select($value);
+/**
+* @param $value [ none | text | toggle | element | elements | all | inherit ]
+* @example
+*     @include user-select(none);
+*/
