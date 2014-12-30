@@ -1,12 +1,15 @@
 /**
 * todo : set default
 *
-* @param $property
-* @param $expression {String}
+* @param $key
+* @param $value {String}
 * @example
 * 		@include _calc(width, "25% - 1em");
 */
-@mixin _calc($property, $expression) {
-	#{$property}: -webkit-calc(#{$expression});
-	#{$property}: calc(#{$expression});
+@mixin _calc($key, $value) {
+  #{$key}: -webkit-calc(#{$value});
+  #{$key}: -moz-calc(#{$value});
+  #{$key}: -ms-calc(#{$value});
+  #{$key}: -o-calc(#{$value});
+  #{$key}: calc(#{$value});
 }

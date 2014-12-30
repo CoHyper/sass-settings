@@ -1,10 +1,15 @@
+/**
+* TODO : set default
+*
+* used in:
+*   animation-fill-mode: none;
+*   tap-highlight-color: rgba(0,0,0,0);
+*   text-size-adjust: none;
+*   touch-callout: none;
+* @examples
+*     @include _setPrefix($key, $value);
+*/
 @mixin _setPrefix($key, $value) {
-  // @include _setPrefix($key, $value);
-  // TODO : set default
-  // animation-fill-mode: none;
-  // tap-highlight-color: rgba(0,0,0,0);
-  // text-size-adjust: none;
-  // touch-callout: none;
   -webkit-#{$key}: $value;
   -moz-#{$key}: $value;
   -ms-#{$key}: $value;
@@ -12,7 +17,9 @@
   #{$key}: $value;
 }
 
+/**
+* @deprecated
+*/
 @mixin SetPrefix($key, $value) {
-  // @deprecated
   @include _setPrefix($key, $value);
 }
