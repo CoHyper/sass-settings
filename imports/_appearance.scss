@@ -1,5 +1,6 @@
 /**
-* @param $value [ normal | icon | window | button | menu | field ]
+* @param $value [ normal | icon | window | button | menu | field ] Require
 * @example
 *     @include appearance(icon);
 */
+@include appearance(normal);

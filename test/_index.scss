@@ -1,0 +1,27 @@
+// @import "sass-settings/test/index";
+.sass-settings-test {
+  @import "../imports/align-items";
+  @import "../imports/animation-fill-mode";
+  @import "../imports/animation";
+  @import "../imports/appearance";
+  @import "../imports/backface-visibility";
+  @import "../imports/background-clip";
+  @import "../imports/background-image";
+  @import "../imports/background-size";
+  @import "../imports/border-image";
+  @import "../imports/border-radius";
+  @import "../imports/box-shadow";
+  @import "../imports/box-sizing";
+  // @import "../imports/images";
+  @import "../imports/keyframes";
+  @import "../imports/opacity";
+  @import "../imports/tap-highlight-color";
+  @import "../imports/text-shadow";
+  @import "../imports/text-size-adjust";
+  @import "../imports/touch-callout";
+  @import "../imports/transform";
+  @import "../imports/transition-duration";
+  @import "../imports/transition-timing-function";
+  @import "../imports/transition";
+  @import "../imports/user-select";
+}

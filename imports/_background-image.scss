@@ -1,5 +1,6 @@
 /**
-* @param $value
+* @param $value Require
 * @example
 *     @include background-image($value);
 */
+@include background-image(none);

@@ -1,6 +1,6 @@
 // http://compass-style.org/help/tutorials/spriting/
 @import "compass/utilities/sprites";
 // import all images (need extra folder)
-@import "images/*.png";
+@import "../images/*.png";
 // include all images as css class
 @include all-images-sprites;

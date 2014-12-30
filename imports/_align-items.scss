@@ -1,0 +1,6 @@
+/**
+* @param $value [ flex-start | flex-end | center | baseline | stretch ] Require
+* @examples
+*     @include align-items($value);
+*/
+@include align-items(center);

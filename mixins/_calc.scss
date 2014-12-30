@@ -1,11 +1,11 @@
-/**
-* todo : set default
-*
-* @param $key
-* @param $value {String}
-* @example
-* 		@include _calc(width, "25% - 1em");
-*/
+//
+// todo : set default
+//
+// @param $key
+// @param $value {String}
+// @example
+// 		@include _calc(width, "25% - 1em");
+//
 @mixin _calc($key, $value) {
   #{$key}: -webkit-calc(#{$value});
   #{$key}: -moz-calc(#{$value});
