@@ -25,7 +25,6 @@ input {
   &[type="text"],
   &[type="time"],
   &[type="url"],
-  &[type="week"] {
-    @include user-select(text);
-  }
+  &[type="week"] {}
+  @include user-select(text);
 }
