@@ -15,3 +15,6 @@ Start new SASS project with same structure and functions.
 * also your new sass structur `./sass/sass-settings/`
 * add in your default SCSS file `@import "sass-settings/index";`
 * in "sass-settings/index" is NOT exist `@import "compass/reset";`. The Compass reset must extra include.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/CoHyper/sass-settings/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
