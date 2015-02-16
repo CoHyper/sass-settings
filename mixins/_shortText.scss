@@ -1,0 +1,12 @@
+// @param $nowrap {Boolean}
+// @example
+// 		@include _shortText(false);
+//      @include _shortText();
+//
+@mixin _shortText($nowrap: true) {
+  @if ($nowrap) {
+    white-space: nowrap;
+  }
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
