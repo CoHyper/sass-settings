@@ -1,1 +1,6 @@
-# need a test file to all files include and so test it is work
+# Test
+
+* to test all imports
+* import the _index.scss in this folder
+
+@import "sass-settings/test/index";
