@@ -1,0 +1,17 @@
+@media print {}
+
+@media only screen and (-moz-min-device-pixel-ratio:1.5) {}
+@media only screen and (-o-min-device-pixel-ratio:3/2) {}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) {}
+@media only screen and (min-device-pixel-ratio:1.5) {}
+
+/* Responsive (Mobile) Design */
+@media screen and (orientation:portrait) {}
+@media screen and (orientation:landscape) {}
+
+@media screen and (max-width: 980px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 650px) {}
+@media screen and (max-width: 480px) {}
+@media screen and (max-width: 320px) {}
+@media screen and (max-width: 240px) {}
