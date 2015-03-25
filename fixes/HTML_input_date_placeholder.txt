@@ -1,0 +1,13 @@
+*Actual behaviour*
+cant set the placeholder of input="date"
+<input type="date" placeholder="23.12.2015" />
+
+*Expected behaviour*
+
+*Reproduce*
+
+*Solution*
+<input type="date" value="2015-12-23" />
+
+*Info*
+The date format must to be "YYYY-MM-DD"
