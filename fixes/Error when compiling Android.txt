@@ -1,0 +1,26 @@
+Failed to compile resources with the following parameters:
+ -bootclasspath "/Users/ines/Development/android-sdk-macosx/platforms/android-21/android.jar" -d "/Users/ines/Documents/Game/Temp/StagingArea/bin/classes" -source 1.6 -target 1.6 -encoding UTF-8 "com/Company/Game/R.java" "com/facebook/android/R.java"
+ warning: java/lang/Object.class(java/lang:Object.class): major version 51 is newer than 50, the highest major version supported by this compiler.
+ It is recommended that the compiler be upgraded.
+
+
+
+
+ Steps to make this work:
+
+ Set the JAVA_HOME environment value:
+
+ export JAVA_HOME= ` /usr/libexec/java_home `
+
+ Add the java bin folder to the PATH variable:
+
+ export PATH=$JAVA_HOME/bin:$PATH
+
+ Create a link in the following directory:
+
+ sudo ln -nsf /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents \ /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK
+
+ And that's it. Hope it helps.
+
+
+ (restart terminal)
