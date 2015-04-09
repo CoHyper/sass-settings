@@ -1,0 +1,9 @@
+/**
+* @include _setPrefix($key, $value);
+* $default-animation-direction null
+*
+* @param $key [ animation-direction ] (Require)
+* @param $value [normal | alternate] (Require) Whether or not the animation should play in reverse on alternate cycles.
+*/
+@include _setPrefix(animation-direction, normal);
+@include _setPrefix(animation-direction, alternate);

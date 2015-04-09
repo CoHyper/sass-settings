@@ -1,6 +1,10 @@
 /**
-* @param $value [ flex-start | flex-end | center | baseline | stretch ] Require
-* @examples
-*     @include align-items($value);
+* @include align-items($value);
+*
+* @param $value [ flex-start | flex-end | center | baseline | stretch ] (Require)
 */
+@include align-items(flex-start);
+@include align-items(flex-end);
 @include align-items(center);
+@include align-items(baseline);
+@include align-items(stretch);

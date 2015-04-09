@@ -1,3 +1,13 @@
-// [ ease | linear | ease-in | ease-out | ease-in-out | cubic-bezier(x1, y1, x2, y2)]
-// $default-transition-function: false;
+/**
+* @include transition-timing-function();
+* $default-transition-function: false;
+*
+* @param $value [ ease | linear | ease-in | ease-out | ease-in-out | cubic-bezier(x1, y1, x2, y2)] (Optional)
+*/
 @include transition-timing-function();
+@include transition-timing-function(ease);
+@include transition-timing-function(linear);
+@include transition-timing-function(ease-in);
+@include transition-timing-function(ease-out);
+@include transition-timing-function(ease-in-out);
+@include transition-timing-function(cubic-bezier(x1, y1, x2, y2));

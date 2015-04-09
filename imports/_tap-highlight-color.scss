@@ -1,7 +1,7 @@
 /**
-* @param $key [ tap-highlight-color ]
+* @include _setPrefix($key, $value);
+*
+* @param $key [ tap-highlight-color ] (Require)
 * @param $value
-* @example
-*     @include _setPrefix(tap-highlight-color, $value);
 */
 @include _setPrefix(tap-highlight-color, #ccc);

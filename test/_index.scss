@@ -1,7 +1,13 @@
 // @import "sass-settings/test/index";
 .sass-settings-test {
   @import "../imports/align-items";
+  @import "../imports/animation-direction";
+  @import "../imports/animation-duration";
   @import "../imports/animation-fill-mode";
+  @import "../imports/animation-iteration-count";
+  @import "../imports/animation-name";
+  @import "../imports/animation-play-state";
+  @import "../imports/animation-timing-function";
   @import "../imports/animation";
   @import "../imports/appearance";
   @import "../imports/backface-visibility";
@@ -12,9 +18,17 @@
   @import "../imports/border-radius";
   @import "../imports/box-shadow";
   @import "../imports/box-sizing";
+  @import "../imports/calc";
+  @import "../imports/column-count";
+  @import "../imports/clear";
+  @import "../imports/display";
+  @import "../imports/float-reset";
+  @import "../imports/float";
   // @import "../imports/images";
+  @import "../imports/justify-content";
   @import "../imports/keyframes";
   @import "../imports/opacity";
+  @import "../imports/order";
   @import "../imports/tap-highlight-color";
   @import "../imports/text-shadow";
   @import "../imports/text-size-adjust";

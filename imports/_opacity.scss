@@ -1,6 +1,6 @@
 /**
-* @param $value {Number} [ 0.7 | 0 | 1 ]
-* @example
-*     @include opacity(0.5);
+* @include opacity($value);
+*
+* @param $value {Float} (Require) [ 0.7 | 0 | 1 ]
 */
 @include opacity(1);

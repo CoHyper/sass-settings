@@ -1,7 +1,10 @@
 /**
-* $key [ animation-fill-mode ]
-* $value [ none ]
-* @example
-*     @include _setPrefix(animation-fill-mode, none);
+* @include _setPrefix($key, $value);
+*
+* @param $key [animation-fill-mode] (Require)
+* @param $value [none | forwards | backwards | both] (Require) What values are applied by the animation outside the time it is executing.
 */
 @include _setPrefix(animation-fill-mode, none);
+@include _setPrefix(animation-fill-mode, forwards);
+@include _setPrefix(animation-fill-mode, backwards);
+@include _setPrefix(animation-fill-mode, both);

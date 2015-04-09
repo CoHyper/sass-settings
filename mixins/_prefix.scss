@@ -9,7 +9,7 @@
 // @examples
 //     @include _setPrefix($key, $value);
 
-@mixin _setPrefix($key, $value) {
+@mixin _setPrefix($key, $value...) {
   -webkit-#{$key}: $value;
   -moz-#{$key}: $value;
   -ms-#{$key}: $value;

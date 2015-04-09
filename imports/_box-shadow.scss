@@ -1,29 +1,12 @@
-/*
-@param $value
-@default 0px 0px 5px #333333
-
-$box-shadow-support-threshold $graceful-usage-threshold
-The prefixed support threshold for box-shadow. Defaults to the $graceful-usage-threshold.
-
-$default-box-shadow-color #333333
-The default color for box shadows
-
-$default-box-shadow-h-offset 0px
-The default horizontal offset. Positive is to the right.
-
-$default-box-shadow-v-offset 0px
-The default vertical offset. Positive is down.
-
-$default-box-shadow-blur 5px
-The default blur length.
-
-$default-box-shadow-spread null
-The default spread length.
-
-$default-box-shadow-inset null
-The default shadow inset: inset or null (for standard shadow).
-
-@example
-    @include box-shadow($value);
+/**
+* @include box-shadow($value);
+* $default-box-shadow-color: #333333;
+* $default-box-shadow-h-offset: 0px; The default horizontal offset. Positive is to the right.
+* $default-box-shadow-v-offset: 0px; The default vertical offset. Positive is down.
+* $default-box-shadow-blur: 5px; The default blur length.
+* $default-box-shadow-spread: null; The default spread length.
+* $default-box-shadow-inset: null; The default shadow inset: inset or null (for standard shadow).
+*
+* @param [$value] (Optional)
 */
 @include box-shadow();

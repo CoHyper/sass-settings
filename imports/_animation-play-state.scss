@@ -1,0 +1,9 @@
+/**
+* @include _setPrefix($key, $value);
+* $default-animation-play-state: null;
+*
+* @param $key [animation-play-state] (Require)
+* @param $value [running | paused] (Require) Whether the animation is running or paused.
+*/
+@include _setPrefix(animation-play-state, running);
+@include _setPrefix(animation-play-state, paused);

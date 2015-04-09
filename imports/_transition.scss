@@ -1,8 +1,11 @@
 /**
-* @param $value
-* @example
-*     @include transition($value);
+* @include transition($value);
+* $default-transition-property : all
+* $default-transition-duration : 1s
+* $default-transition-function : false
+* $default-transition-delay : false
 *
-*	  @include transition(background-color 1s linear);
+* @param $value (Optional)
 */
 @include transition();
+@include transition(background-color 1s linear);

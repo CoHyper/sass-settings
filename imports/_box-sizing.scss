@@ -1,6 +1,10 @@
 /**
-* @param $value [ content-box | border-box ]
-* @example
-*     @include box-sizing($value);
+* @include box-sizing($value);
+* $default-box-sizing border-box
+*
+* @param $value [ content-box | border-box | padding-box]
 */
 @include box-sizing();
+@include box-sizing(content-box);
+@include box-sizing(border-box);
+@include box-sizing(padding-box);

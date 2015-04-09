@@ -1,6 +1,12 @@
 /**
-* @param $value [ none | text | toggle | element | elements | all | inherit ]
-* @example
-*     @include user-select(none);
+* @include user-select($value);
+*
+* @param $value [ none | text | toggle | element | elements | all | inherit ] (Require)
 */
 @include user-select(none);
+@include user-select(text);
+@include user-select(toggle);
+@include user-select(element);
+@include user-select(elements);
+@include user-select(all);
+@include user-select(inherit);

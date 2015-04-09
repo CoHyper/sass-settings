@@ -1,20 +1,17 @@
 /**
-* @param $key [ bgcolor ]
+* @include _setKeyframes($key) {$value};
+*
+* @param $key (Require) The name of keyframe
 * @param $value
-* @example
-*		@include _setKeyframes($key) {
-*			$value
-*		};
-*
-*		@include _setKeyframes(bgcolor) {
-*			background-color: #ffccf2;
-*		}
-*
-*		@include SetKeyframes(myfirst) {
-*			from {background: red;}
-*			to {background: yellow;}
-*		}
 */
-@include _setKeyframes(bgcolor) {
-  background-color: #ffccf2;
+@include _setKeyframes(sass-settings-test-keyframes-1) {
+  background-color: red;
+}
+@include _setKeyframes(sass-settings-test-keyframes-2) {
+  from {background: red;}
+  to {background: yellow;}
+}
+@include -setKeyframes(sass-settings-test-keyframes-3) {
+  0% {background: red;}
+  100% {background: yellow;}
 }

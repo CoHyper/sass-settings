@@ -1,0 +1,7 @@
+/**
+* @include _setPrefix($key, $value);
+*
+* @param $key [ animation-duration ] (Require)
+* @param $value [ 1s ] (Require) The time
+*/
+@include _setPrefix(animation-duration, 2s);

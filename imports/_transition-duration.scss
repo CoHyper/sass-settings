@@ -1,3 +1,8 @@
-// $value in seconds
-// $default-transition-duration: 1s;
+/**
+* @include transition-duration();
+* $default-transition-duration: 1s;
+*
+* @param [$value] (Optional) In seconds
+*/
 @include transition-duration();
+@include transition-duration(200s);

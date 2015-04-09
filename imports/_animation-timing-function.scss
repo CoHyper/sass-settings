@@ -1,0 +1,14 @@
+/**
+* @include _setPrefix($key, $value);
+* $default-animation-timing-function: null:
+*
+* @param $key [ animation ] (Require)
+* @param $value [ none ] [ ease | linear | ease-in | ease-out | ease-in-out | cubic-bezier($number, $number, $number, $number )] (Require) The timing function(s) to be used between keyframes.
+*/
+@include _setPrefix(animation-timing-function, easy-in);
+@include _setPrefix(animation-timing-function, ease);
+@include _setPrefix(animation-timing-function, linear);
+@include _setPrefix(animation-timing-function, ease-in);
+@include _setPrefix(animation-timing-function, ease-out);
+@include _setPrefix(animation-timing-function, ease-in-out);
+@include _setPrefix(animation-timing-function, cubic-bezier(1, 2, 3, 4));

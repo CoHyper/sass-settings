@@ -1,0 +1,9 @@
+/**
+* @include _setPrefix($key, $value);
+* $default-animation-iteration-count: null;
+*
+* @param $key [animation-iteration-count] (Require)
+* @param $value [infinite | $number] (Require) How often display the animation. The number of times an animation cycle is played.
+*/
+@include _setPrefix(animation-iteration-count, infinite);
+@include _setPrefix(animation-iteration-count, 2);

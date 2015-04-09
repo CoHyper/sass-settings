@@ -1,10 +1,6 @@
 /**
-* Sort
+* @include order($value);
 *
-* @param $value {Number}
-* @examples
-*     @include order(1);
-*     // -> -webkit-order: 1;
-*     // -> order: 1;
+* @param $value {Number} (Require)
 */
-@include order();
+@include order(1);

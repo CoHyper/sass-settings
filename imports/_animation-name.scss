@@ -1,0 +1,8 @@
+/**
+* @include _setPrefix($key, $value);
+* $default-animation-name: null;
+*
+* @param $key [animation-name] (Require) Name of the animation
+* @param $value (Require)
+*/
+@include _setPrefix(animation-name, sass-settings-test-animation-name);

@@ -1,9 +1,9 @@
 /**
-* INFO: 1em is a circle
+* @include border-radius($value);
+* $default-border-radius: 5px;
 *
-* @default $default-border-radius: 5px;
-* @param $value [ 2em ] Any size
-* @example
-*     @include border-radius(1em);
+* INFO: 1em is a circle
+* @param [$value] (Optional)
 */
 @include border-radius();
+@include border-radius(1em);
