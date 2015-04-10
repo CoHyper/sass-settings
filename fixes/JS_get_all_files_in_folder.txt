@@ -1,0 +1,23 @@
+/**
+* @method getAllFiles
+* @param dir {String}
+* @return {Array} Returns all files in the folder
+* @todo return all files with path of subfolder
+*/
+function getAllFiles(dir) {
+    var filesystem = require("fs"),
+        results = [];
+
+    filesystem.readdirSync(dir).forEach(function(file) {
+        file = dir + '/' + file;
+        var stat = filesystem.statSync(file);
+
+        if (stat && stat.isDirectory()) {
+            //results = results.concat(getAllFiles(file));
+        } else {
+            results.push(file);
+        }
+    });
+
+    return results;
+}
