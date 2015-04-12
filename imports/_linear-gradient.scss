@@ -1,0 +1,7 @@
+/**
+* @include background-image(linear-gradient($value1, $value2));
+*
+* @param $value1 (Require)
+* @param $value2 (Require)
+*/
+@include background-image(linear-gradient(white, red));
