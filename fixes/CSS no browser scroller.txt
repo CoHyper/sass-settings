@@ -1,0 +1,5 @@
+html {
+  // BUGFIX : no use Browser scroller
+  overflow: "hidden"; // firefox, chrome
+  scroll: "no"; // ie only
+}
