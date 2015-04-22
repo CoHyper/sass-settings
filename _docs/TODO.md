@@ -4,3 +4,4 @@
 
 # TEST
 * generate automatic testfile
+* add mixins to test

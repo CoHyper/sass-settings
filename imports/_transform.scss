@@ -1,6 +1,9 @@
 /**
-* @include transform($value);
+* @include _setPrefix($key, $value);
 *
-* @param $value (Require)
+* @param $key [transform] (Require)
+* @param $value [ 3D-only | translateZ(0) | rotate(45deg) ]
 */
-@include transform(3D-only);
+@include _setPrefix(transform, translateZ(0));
+@include _setPrefix(transform, 3D-only);
+@include _setPrefix(transform, rotate(45deg));

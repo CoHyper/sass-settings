@@ -10,6 +10,7 @@ So how do you force webkit to share the processing load with the GPU?
 Apply this style to the element you’re animating:
 
 
-@include transform(translateZ(0));
+@include _setPrefix(transform, translateZ(0));
+
 
 Simple, but effective.
