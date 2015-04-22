@@ -1,0 +1,10 @@
+
+.sass-settings-test-mixins {
+
+  // test
+  @include _shortText();
+  @include _shortText(true);
+  @include _shortText(false);
+
+  // todo add all mixins
+}

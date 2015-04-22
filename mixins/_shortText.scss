@@ -11,8 +11,3 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
-// test
-@include _shortText();
-@include _shortText(true);
-@include _shortText(false);
