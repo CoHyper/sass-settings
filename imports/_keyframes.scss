@@ -11,7 +11,7 @@
   from {background: red;}
   to {background: yellow;}
 }
-@include -setKeyframes(sass-settings-test-keyframes-3) {
+@include _setKeyframes(sass-settings-test-keyframes-3) {
   0% {background: red;}
   100% {background: yellow;}
 }
