@@ -7,9 +7,19 @@
 // 		@include _calc(width, "25% - 1em");
 //
 @mixin _calc($key, $value) {
-  #{$key}: -webkit-calc(#{$value});
-  #{$key}: -moz-calc(#{$value});
-  #{$key}: -ms-calc(#{$value});
-  #{$key}: -o-calc(#{$value});
-  #{$key}: calc(#{$value});
+  @if ($support-for-webkit) {
+    #{$key}: -webkit-calc(#{$value});
+  }
+  @if ($support-for-moz) {
+    #{$key}: -moz-calc(#{$value});
+  }
+  @if ($support-for-ms) {
+    #{$key}: -ms-calc(#{$value});
+  }
+  @if ($support-for-o) {
+    #{$key}: -o-calc(#{$value});
+  }
+  @if ($support-for) {
+    #{$key}: calc(#{$value});
+  }
 }

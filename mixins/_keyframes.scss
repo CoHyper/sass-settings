@@ -1,19 +1,30 @@
 // todo : set default
 @mixin _setKeyframes($key) {
-  @-webkit-keyframes #{$key} {
-	@content;
+
+  @if ($support-for-webkit) {
+    @-webkit-keyframes #{$key} {
+      @content;
+    }
   }
-  @-moz-keyframes #{$key} {
-	@content;
+  @if ($support-for-moz) {
+    @-moz-keyframes #{$key} {
+      @content;
+    }
   }
-  @-ms-keyframes #{$key} {
-	@content;
+  @if ($support-for-ms) {
+    @-ms-keyframes #{$key} {
+      @content;
+    }
   }
-  @-o-keyframes #{$key} {
-	@content;
+  @if ($support-for-o) {
+    @-o-keyframes #{$key} {
+      @content;
+    }
   }
-  @keyframes #{$key} {
-	@content;
+  @if ($support-for) {
+    @keyframes #{$key} {
+      @content;
+    }
   }
 }
 

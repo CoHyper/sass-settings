@@ -8,6 +8,16 @@ Start new SASS project with same structure and functions.
 * SASS
 * Compass
 
+
+## Extra config
+* $support-for-all: true !default; // todo
+* $support-for-webkit: true !default;
+* $support-for-moz: false !default;
+* $support-for-ms: false !default;
+* $support-for-o: false !default;
+* $support-for: true !default;
+
+
 ## To use
 * create new sass project `$ compass create`.
 * compass create a folder `./sass/`
