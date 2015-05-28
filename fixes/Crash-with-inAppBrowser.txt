@@ -1,0 +1,3 @@
+
+Don't delete the icons from the platform Android
+* ic_action_next_item.png
