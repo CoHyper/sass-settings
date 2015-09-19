@@ -5,6 +5,7 @@
 //      @include _shortText();
 //
 @mixin _shortText($nowrap: true) {
+  white-space: nowrap;
   @if ($nowrap) {
     white-space: nowrap;
   }
