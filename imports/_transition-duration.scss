@@ -6,3 +6,4 @@
 */
 @include transition-duration();
 @include transition-duration(200s);
+@include transition-duration(200s, 200s);

@@ -10,4 +10,5 @@
 @include transition-timing-function(ease-in);
 @include transition-timing-function(ease-out);
 @include transition-timing-function(ease-in-out);
+@include transition-timing-function(ease-in-out, ease-in-out);
 @include transition-timing-function(cubic-bezier(x1, y1, x2, y2));
