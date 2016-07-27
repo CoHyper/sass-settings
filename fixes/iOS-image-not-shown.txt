@@ -1,0 +1,6 @@
+
+iOS cant show image with a div tag (cordova v6.3.0)
+<div class="image-test"></div>
+
+solution
+<img class="image-test" alt />
