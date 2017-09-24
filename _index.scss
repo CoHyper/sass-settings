@@ -1,15 +1,14 @@
-//@charset "UTF-8";
-// @charset may only be used at the root and top of a document.
+@charset "UTF-8";
 
-
-// import compass
-@import "compass";
-
-// You can configure the compass default browser support matrix by setting these variables as needed.
-@import "compass/support";
 
 // import mixins
-@import "mixins/calc";
-@import "mixins/keyframes";
-@import "mixins/prefix";
-@import "mixins/shortText";
+// @import "_old/functions/calc";
+// @import "_old/functions/keyframes";
+// @import "_old/functions/prefix";
+// @import "_old/functions/shortText";
+
+@import "mixins/appearance";
+@import "mixins/border-radius";
+@import "mixins/margin";
+@import "mixins/padding";
+@import "mixins/position";

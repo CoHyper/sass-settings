@@ -9,7 +9,7 @@
   @import "../imports/animation-play-state";
   @import "../imports/animation-timing-function";
   @import "../imports/animation";
-  @import "../imports/appearance";
+  @import "../../mixins/appearance";
   @import "../imports/backface-visibility";
   @import "../imports/background-clip";
   @import "../imports/background-image";
@@ -40,6 +40,6 @@
   @import "../imports/transition";
   @import "../imports/user-select";
 
-  @import "../mixins/TEST";
+  @import "../functions/TEST";
 
 }

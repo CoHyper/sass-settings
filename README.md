@@ -1,6 +1,11 @@
 sass-settings
 =============
 
+
+## new
+* without compass
+*
+
 Start new SASS project with same structure and functions.
 
 ## Require install

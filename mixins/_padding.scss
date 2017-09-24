@@ -1,0 +1,11 @@
+//
+//
+//
+@mixin padding($value...) {
+  padding: $value;
+  // @if ($support-for-webkit) { -webkit-<key>: $value;}
+  // @if ($support-for-moz) { -moz-<key>: $value;}
+  // @if ($support-for-ms) { -ms-<key>: $value; }
+  // @if ($support-for-o) { -o-<key>: $value; }
+  // @if ($support-for) { <key>: $value; }
+}

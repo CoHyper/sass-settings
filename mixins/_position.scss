@@ -1,0 +1,18 @@
+//
+// position: absolute, fixed, relative, static, sticky
+//
+@mixin position($value) {
+  @import "../functions/isInList";
+  $lists: (absolute, fixed, relative, static, sticky);
+
+  @if (_isInList($lists, $value)) {
+
+    // @if ($support-for-webkit) { -webkit-<key>: $value;}
+    // @if ($support-for-moz) { -moz-<key>: $value;}
+    // @if ($support-for-ms) { -ms-<key>: $value; }
+    // @if ($support-for-o) { -o-<key>: $value; }
+    @if ($support-for) {
+      position: $value;
+    }
+  }
+}

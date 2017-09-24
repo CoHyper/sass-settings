@@ -1,0 +1,25 @@
+//
+// @param $value [ none | normal | icon | window | button | menu | field ] - (Require)
+// @example
+// @include appearance();
+// @include appearance(none);
+// @include appearance(normal);
+// @include appearance(icon);
+// @include appearance(window);
+// @include appearance(button);
+// @include appearance(menu);
+// @include appearance(field);
+//
+@mixin appearance($value: null) {
+  @if ($value != null) {
+    @if ($support-for-webkit) {
+      -webkit-appearance: $value;
+    }
+    @if ($support-for-moz) {
+      -moz-appearance: $value;
+    }
+    // @if ($support-for-ms) { -ms-appearance: $value; }
+    // @if ($support-for-o) { -o-appearance: $value; }
+    // @if ($support-for) { appearance: $value; }
+  }
+}

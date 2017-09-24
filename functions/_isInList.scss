@@ -1,0 +1,11 @@
+
+
+@function _isInList($lists, $value) {
+  @each $item in $lists {
+    @if ($item == $value) {
+      @return true;
+    }
+  }
+
+  @return false;
+}
